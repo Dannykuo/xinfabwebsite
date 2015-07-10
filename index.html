@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="keywords" content="Xinfab, fablab, jingan, Shanghai, China, , opensource, non-profit, makerspace, office, digital fabrication, open design, innovation, share, 3d printing, laser cutter, milling, cnc, workspace, xinchejian, people2" />
+	<meta name="description" content="Xinfab is a fablab in the centre of Shanghai" />
+	<meta name="robots" content="all" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+
+
+
+<title>Xinfab / Fablab - Shanghai - HOME</title>
+
+
+	<link rel="stylesheet" type="text/css" href="xinfab.css" />
+
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+  <p align="center">
+  <a href="#"><img src="LOGO/fablab_logo_red.gif" alt="xinfab" width="342" height="205" id="Insert_logo" style="background-color: #FFFFFF; display:block;" /></a> </p>
+  </div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="index.html" title="Home" target="_self">Home</a></li>
+      <li><a href="about.html" title="About" target="_self">About</a></li>
+      <li><a href="service.html" title="Xinfab Service" target="_self">Xinfab service</a></li>
+      <li><a href="equipment.html" title="Equipment" target="_self">Equipment</a></li>
+      <li><a href="projects.html" title="Projects" target="_self">Projects</a></li>
+       <li><a href="sponsorship.html" title="sponsorship" target="_self">Sponsorship</a></li>
+      <li><a href="contact.html" title="Contact" target="_self">Contact / info</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <!-- end .sidebar1 --></div>
+
+  <div class="content">
+    <h1>HOME</h1>
+    
+    
+    
+    
+     <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+
+        jssor_slider1_starter = function (containerId) {
+
+            var _SlideshowTransitions = [
+            //Fade
+            { $Duration: 1200, $Opacity: 2 }
+            ];
+
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 3000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+                    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+                },
+
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 10,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 10,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 600));
+                else
+                    $Jssor$.$Delay(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 770px; height: 433px; overflow: hidden; ">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 770px; height: 433px; overflow: hidden;">
+            <div>
+                <img u="image" src="photos/general/xinfab_3dprints2.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_cncworkshop.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_drone_workshop100.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_drone_workshop135.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_minister_techonology_shanghai2.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_counter.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_bamboo_workshop.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_machineroom.jpg" />
+            </div>
+            <div>
+                <img u="image" src="photos/general/xinfab_3dprints.jpg" />
+            </div>
+         
+        </div>
+        
+        <!--#region Bullet Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
+        <style>
+            /* jssor slider bullet navigator skin 05 css */
+            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+            .jssorb05 {
+                position: absolute;
+            }
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 16px;
+                height: 16px;
+                background: url(../img/b05.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .jssorb05 div { background-position: -7px -7px; }
+            .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+            .jssorb05 .av { background-position: -67px -7px; }
+            .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+        </style>
+        <!-- bullet navigator container -->
+        <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype"></div>
+        </div>
+        <!--#endregion Bullet Navigator Skin End -->
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 12 css */
+            /*
+            .jssora12l                  (normal)
+            .jssora12r                  (normal)
+            .jssora12l:hover            (normal mouseover)
+            .jssora12r:hover            (normal mouseover)
+            .jssora12l.jssora12ldn      (mousedown)
+            .jssora12r.jssora12rdn      (mousedown)
+            */
+            .jssora12l, .jssora12r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 30px;
+                height: 46px;
+                cursor: pointer;
+                background: url(../img/a12.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora12l { background-position: -16px -37px; }
+            .jssora12r { background-position: -75px -37px; }
+            .jssora12l:hover { background-position: -136px -37px; }
+            .jssora12r:hover { background-position: -195px -37px; }
+            .jssora12l.jssora12ldn { background-position: -256px -37px; }
+            .jssora12r.jssora12rdn { background-position: -315px -37px; }
+        </style>
+        <!-- Arrow Left -->
+      <span u="arrowleft" class="jssora12l" style="top: 100px; left: 0px;">
+        </span>
+        <!-- Arrow Right -->
+      <span u="arrowright" class="jssora12r" style="top: 100px; right: 0px;">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider1_starter('slider1_container');
+        </script>
+
+    </div>
+    
+    <p></p>
+    
+    <h1>Xinfab</h1>
+    <p>XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+
+XinFab now is in expansion.
+
+Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+    <p>&nbsp;</p>
+    <h1>3d printing workshop</h1>
+    <p><img src="photos/news/xinfab_3dprintingworkshop.jpg" width="770" height="433" /><br />
+      XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+
+XinFab now is in expansion.
+
+Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+
+
+    <p>&nbsp;</p>
+    
+    <h1>Drone workshop</h1>
+    <p><img src="photos/news/xinfab_drone_workshop.jpg" width="770" height="433" /><br />
+      XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+
+XinFab now is in expansion.
+
+Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+   
+   
+    
+     <p>&nbsp;</p>
+    <h1>Improved Xinfab interior</h1>
+    <p><img src="photos/space/xinfab_space_2S.jpg" width="780" height="439" /><br />
+      XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+
+XinFab now is in expansion.
+
+Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+    
+    
+      <h1>Visit Mayor of Shanghai</h1>
+    <p><img src="photos/news/xinfab_mayor_shanghai.JPG" width="770" height="433" /><br />
+      XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+
+XinFab now is in expansion.
+
+Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+    
+    
+    <p>&nbsp;</p>
+    <h1>Visit Minister of Technology</h1>
+    <p><img src="photos/news/xinfab_minister_techonology_shanghai2.jpg" width="770" height="433" /><br />
+      XinFab is a FabLab effort grown out of the necessity of the hacker/makers community.
+      
+      XinFab now is in expansion.
+      
+    Right now, XinFab is located within the heart of Shanghai and has on site a laser cutter, a CNC machine, TIG and Spot Welders,  over 10 3D printers, a hydraulic press, a lathe, and a diverse assortment of power tools.</p>
+    
+    
+   
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+   
+    <!-- end .content --></div>
+  <div class="footer">
+    <p>©  2015 Xinfab </p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
